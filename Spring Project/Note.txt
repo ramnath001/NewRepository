@@ -1,0 +1,6 @@
+The project is a spring mvc project where this is the faculty module.
+The module consists of the Faculty controller, service layer and the Database access
+layer.
+
+It basically performs the function of adding a faculty to the database,deleting a 
+faculty and updating faculty information.
