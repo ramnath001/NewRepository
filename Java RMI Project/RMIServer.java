@@ -31,7 +31,7 @@ public void boardDisplay()  throws java.rmi.RemoteException;
 }
 
 
-class tictactoe extends UnicastRemoteObject implements tictac 
+class tictactoe extends UnicastRemoteObject implements tictac
 {
 	private char turn;			
 	private char board[][];			
@@ -144,7 +144,7 @@ class tictactoe extends UnicastRemoteObject implements tictac
 }
 
 // this class implements RMIserver class which binds 'game' object
-// with the rmiregistry.
+// with the rmiregistry
 
 public class RMIServer {
 
